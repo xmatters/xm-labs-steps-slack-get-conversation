@@ -43,9 +43,9 @@ The **Slack - Get Conversation** and **Slack - Beautify Conversation** steps are
 | Name  | Required? | Min | Max | Help Text | Default Value | Multiline |
 | ----- | ----------| --- | --- | --------- | ------------- | --------- |
 | Channel Name | Yes | 0 | 2000 | The name of the Channel in Slack | | No |
-| Max Messages | Yes | 0 | 2000 | How many messages to get | | No |
-| Display Apps? | Yes | 0 | 2000 | Whether to get Bots and Apps. Either true or false | | No |
-| Blacklist | Yes | 0 | 2000 | Comma-separated list of any uses or bots names that should not be included | | No |
+| Max Messages | Yes | 0 | 2000 | How many messages to get | 100 | No |
+| Display Apps? | Yes | 0 | 2000 | Whether to get Bots and Apps. Either true or false | true | No |
+| Blacklist | No | 0 | 2000 | Comma-separated list of any uses or bots names that should not be included | | No |
 
 
 ### Outputs
@@ -61,7 +61,7 @@ The **Slack - Get Conversation** and **Slack - Beautify Conversation** steps are
 | Name  | Required? | Min | Max | Help Text | Default Value | Multiline |
 | ----- | ----------| --- | --- | --------- | ------------- | --------- |
 | Conversation | Yes | 0 | 2000 | Conversation from the **Slack - Get Conversation** Step | | No |
-| Time Zone | Yes | 0 | 2000 | Name of timezone (e.g. America/New_York) Find options [here](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) | | No |
+| Time Zone | Yes | 0 | 2000 | Name of timezone. Find options [here](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) | America/New_York | No |
 
 
 ### Outputs
