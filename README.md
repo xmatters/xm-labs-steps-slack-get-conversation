@@ -46,6 +46,8 @@ The **Slack - Get Conversation** and **Slack - Beautify Conversation** steps are
 | Max Messages | Yes | 0 | 2000 | How many messages to get | 100 | No |
 | Display Apps? | Yes | 0 | 2000 | Whether to get Bots and Apps. Either true or false | true | No |
 | Blacklist | No | 0 | 2000 | Comma-separated list of any uses or bots names that should not be included | | No |
+| Filter | No | 0 | 2000 | Only shows chat with this found in it. `Is Filter Regex` controls whether this is inputted as a regular expression | | No |
+| Is Filter Regex? | Yes | 0 | 2000 | This is either (true) if the filter is written as a regular expression or (false) if it isn't | false | No |
 
 
 ### Outputs
